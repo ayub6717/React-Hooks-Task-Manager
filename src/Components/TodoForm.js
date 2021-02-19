@@ -15,6 +15,8 @@ function TodoForm(props) {
             id: Math.floor(Math.random()*10000), //generate random number
             text: input
         });
+
+        setInput('');
     };
     return (
         <form 
